@@ -25,10 +25,10 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="./public/murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Blog website</b></h3>
 
 </div>
 
@@ -58,11 +58,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Blog] <a name="about-project"></a>
+# 📖 Blog <a name="about-project"></a>
 
-> In this project we implement a class with some methods, but we  do it by doing test-driven development (TDD).
-
-This blog is a functional website that show the list of  posts and empower readers to interact with them by:
+> This blog is a functional website that show the list of  posts and empower readers to interact with them by:
 
 - [x] adding comments
 
