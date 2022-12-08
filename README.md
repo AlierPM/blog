@@ -100,9 +100,9 @@ After you're finished please remove all the comments and instructions!
 
 > The Following are key features of this blog website
 
-- **[A user can display  a list of posts`]**
-- **[A user can add a comment to a post]**
-- **[A user can can like a post.]**
+- [x] **A user can display  a list of posts**
+- [x] **A user can add a comment to a post**
+- [x] **A user can can like a post.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,13 +121,14 @@ After you're finished please remove all the comments and instructions!
 ## 💻 Getting Started <a name="getting-started"></a>
 
 > The following steps were used in creating this project:
-> 1 Setup the project by creating a new directory from the generated repository.
 
-> 2 Set up the repository on GitHub and use Gitflow.
+1 Setup the project by creating a new directory from the generated repository.
 
-> 3 Initialized project with rubocop linters
+2 Set up the repository on GitHub and use Gitflow.
 
-To get a local copy up and running, follow these steps.
+3 Initialized project with rubocop linters
+
+> To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
@@ -139,10 +140,10 @@ In order to run this project you need:
 brew install ruby
 ```
 
-2 Rspec Installed
+2 Rails Installed
 
 ```sh
-gem install rspec
+gem install rails
 ```
 
 ### Setup
@@ -172,6 +173,13 @@ To run the project, execute the following command:
    code .
 ```
 
+### Run project
+
+To run from the local server, run the following command:
+
+```sh
+  rails server
+```
 ### Run tests
 
 To run tests, run the following command:
@@ -198,9 +206,9 @@ To run tests, run the following command:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[Add user login UI ]**
-- [ ] **[Add analytics functionality]**
-- [ ] **[Add sharing of posts option]**
+- [x] **Add user login UI**
+- [x] **Add analytics functionality**
+- [x] **Add sharing of posts option**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
@@ -238,15 +246,15 @@ I would like to thank the Microverse for offering this topic notch course that h
 
 ## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+> You want to know! Relax! We got you!
 
-- **[How Long did it take to build this project?]**
+- **How Long did it take to build this project?**
 
-  - [5 days]
+  - [x] 5 days
 
-- **[How many git conflicts did you resolve?]**
+- **How many git conflicts did you resolve?**
 
-  - [About 5 conflicts resolved]
+  - [x] More than five (5) conflicts resolved
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
