@@ -4,6 +4,6 @@ class PostsController < ApplicationController
   end
 
   def show
-    @user = Post.first.user
+    @user = Post.first
   end
 end
