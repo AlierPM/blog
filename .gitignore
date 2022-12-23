@@ -29,3 +29,10 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+#Ignore node_modules
+/node_modules
+# ignore package-lock.json
+/package-lock.json
+# ignore package.json
+/package.json
