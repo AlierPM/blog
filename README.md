@@ -180,12 +180,14 @@ To run tests, run the following command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- Features -->
-### Key Features <a name="key-features"></a>
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
 > Describe 1 - 3 features you will add to the project.
 
 - [x] **Add user login UI**
-- [x] **Add analytics functionality**
+- [x] **Add Signup page**
 - [x] **Add sharing of posts option**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

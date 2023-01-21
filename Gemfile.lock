@@ -1,6 +1,6 @@
-GEM 
-remote: https://rubygems.org/
-specs:
+GEM
+  remote: https://rubygems.org/
+  specs:
     actioncable (7.0.4.1)
       actionpack (= 7.0.4.1)
       activesupport (= 7.0.4.1)
