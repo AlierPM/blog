@@ -202,15 +202,15 @@ To run tests, run the following command:
 
 <!-- FUTURE FEATURES -->
 
-<!-- ## 🔭 Future Features <a name="future-features"></a>
+## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+> Features that will be added to the project.
 
 - [x] **Add user login UI**
-- [x] **Add analytics functionality**
+- [x] **Add sign up page**
 - [x] **Add sharing of posts option**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
