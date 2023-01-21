@@ -1,0 +1,43 @@
+<div class="blist-group-item list-group-item-action list-group-item-light border card mb-2">
+     <div class="d-flex row">
+    <div class="d-flex col-md-2">
+        <img src=<%= @user.photo %> class="img-thumbnail rounded" alt="User Photo" />
+    </div>
+    <div class="d-flex align-items-center col-md-8">
+      <div class="card-body align-items-center">
+        <h2 class="card-title"><%= @user.name %></h2>
+        <p class="card-text d-flex justify-content-end "><small class="text-muted">Number of posts: <%= @user.posts_counter%></small></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card mb-2">
+  <div class="card-header">
+    <h5 class="card-title">Bio</h5>
+  </div>
+  <div class="card-body">
+    <p class="card-text"><%= @user.bio %></p>
+  </div>
+</div>
+
+<% @posts.each_with_index do |post, index| %>
+        <div class="card mb-2">
+            <div class="card-header">
+              <a href="/users/<%= @user.id %>/posts/<%= post.id %>" class="card-title">
+                <h5 class="card-title"><%= post.title %> #<%= index %></h5>
+            </a>
+            </div>
+            <div class="card-body">
+                <p class="card-text"><%= post.text %></p>
+            </div>
+            <p class="card-text d-flex justify-content-end ">
+                <small class="text-muted">Comments: <%= post.comments_counter %>, Likes: <%= post.likes_counter %></small>
+            </p>
+        </div>
+    
+<% end %>
+<a href="/users/<%= @user.id %>/posts" class="d-flex justify-content-center mb-2">
+    <button class="btn btn-secondary">
+        See All Posts
+    </button>
+</a>

@@ -85,17 +85,6 @@ After you're finished please remove all the comments and instructions!
   </ul>
 </details> -->
 
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-> The Following are key features of this blog website
-
-- [x] **A user can display  a list of posts**
-- [x] **A user can add a comment to a post**
-- [x] **A user can can like a post.**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
@@ -201,7 +190,7 @@ To run tests, run the following command:
 - [x] **Add analytics functionality**
 - [x] **Add sharing of posts option**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
