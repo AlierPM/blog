@@ -23,15 +23,6 @@ REQUIRED SECTIONS:
 After you're finished please remove all the comments and instructions!
 -->
 
-<div align="center">
-
-  <img src="./public/murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Blog website</b></h3>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -96,13 +87,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- Features -->
 
-### Key Features <a name="key-features"></a>
+> Describe 1 - 3 features you will add to the project.
 
-> The Following are key features of this blog website
-
-- [x] **A user can display  a list of posts**
-- [x] **A user can add a comment to a post**
-- [x] **A user can can like a post.**
+- [x] **Add user login UI**
+- [x] **Add analytics functionality**
+- [x] **Add sharing of posts option**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -202,15 +191,15 @@ To run tests, run the following command:
 
 <!-- FUTURE FEATURES -->
 
-<!-- ## 🔭 Future Features <a name="future-features"></a>
+## 🔭 Future Features <a name="future-features"></a>
 
 > Describe 1 - 3 features you will add to the project.
 
-- [x] **Add user login UI**
-- [x] **Add analytics functionality**
-- [x] **Add sharing of posts option**
+- [ ] **[new_feature_1]**
+- [ ] **[new_feature_2]**
+- [ ] **[new_feature_3]**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
