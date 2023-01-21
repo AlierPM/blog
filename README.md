@@ -85,15 +85,6 @@ After you're finished please remove all the comments and instructions!
   </ul>
 </details> -->
 
-<!-- Features -->
-
-> Describe 1 - 3 features you will add to the project.
-
-- [x] **Add user login UI**
-- [x] **Add analytics functionality**
-- [x] **Add sharing of posts option**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
@@ -189,15 +180,15 @@ To run tests, run the following command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
+<!-- Features -->
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [x] **Add user login UI**
+- [x] **Add analytics functionality**
+- [x] **Add sharing of posts option**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
