@@ -23,15 +23,6 @@ REQUIRED SECTIONS:
 After you're finished please remove all the comments and instructions!
 -->
 
-<div align="center">
-
-  <img src="./public/murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Blog website</b></h3>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -94,17 +85,6 @@ After you're finished please remove all the comments and instructions!
   </ul>
 </details> -->
 
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-> The Following are key features of this blog website
-
-- [x] **A user can display  a list of posts**
-- [x] **A user can add a comment to a post**
-- [x] **A user can can like a post.**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 

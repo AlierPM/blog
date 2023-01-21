@@ -213,6 +213,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   capybara
+  cssbundling-rails
   debug
   importmap-rails
   jbuilder
