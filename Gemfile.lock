@@ -242,6 +242,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   capybara
+  cssbundling-rails
   debug
   image_processing (~> 1.2)
   importmap-rails
