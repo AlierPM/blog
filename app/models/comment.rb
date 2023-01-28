@@ -5,11 +5,8 @@ class Comment < ApplicationRecord
   validates :author_id, presence: true
   validates :post_id, presence: true
 
-  after_save :update_comment_counter
-
-  private
-
   def update_comment_counter
-    post.increment!(:comments_counter)
+    post.comments_counter += 1
+    post.save
   end
 end

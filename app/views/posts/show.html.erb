@@ -1,2 +1,33 @@
-<h1>Read each post here......</h1>
+<div class="card mb-1">
+    <div class="card-header">
+        <div class="card-title">
+            <h5 class="card-title"><%= @post.title %> #<%= @post.id %> by <%= @post.author.name %></h5>
+            <p class="card-text d-flex justify-content-end ">
+                <small class="text-muted">Comments: <%= @post.comments_counter %>, Likes: <%= @post.likes_counter %></small>
+            </p>
+        </div>
+    </div>
 
+    <div class="card-body">
+        <p class="card-text"><%= @post.text %></p>
+    </div>
+</div>
+
+<div class="card mb-3">
+    <div class="card-body">
+        <% @post.most_recent_comments.each do |comment| %>
+            <p class="card-text">
+                <%= comment.user.name %>: <%= comment.text %>
+            </p>
+        <% end %>
+    </div>
+</div>
+
+<div>
+    <button class="btn btn-secondary">
+        <%= link_to "Add New Comment", new_comment_path(@post.author.id) %>
+    </button>
+    <%= form_with  url: create_like_path, method: :post, local: true do |f| %>
+        <%= f.submit "Like Post" %>
+    <% end %>
+</div>
