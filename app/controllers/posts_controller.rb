@@ -3,7 +3,5 @@ class PostsController < ApplicationController
     @posts = Post.all
   end
 
-  def show
-    @user = Post.first.user
-  end
+  def show; end
 end
