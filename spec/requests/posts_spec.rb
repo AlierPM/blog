@@ -1,27 +1,18 @@
 require 'rails_helper'
 
-RSpec.describe 'Posts', type: :request do
-  describe 'GET post' do
-    before(:each) { get '/users/:author_id/posts' }
-
-    it 'should return a 200 response' do
+RSpec.describe 'PostsControllers', type: :request do
+  describe 'GET /index' do
+    it '/users/id/posts test' do
+      get '/users/:id/posts'
       expect(response).to have_http_status(:ok)
+      expect(response).to render_template(:index)
+      expect(response.body).to include 'This is a list of posts by one user'
     end
-
-    describe 'GET show' do
-      before(:each) { get '/users/:author_id/posts/11' }
-
-      it 'should return a 200 response' do
-        expect(response).to have_http_status(:ok)
-      end
-    end
-
-    describe 'GET new' do
-      before(:each) { get '/users/:author_id/posts/new' }
-
-      it 'should return a 200 response' do
-        expect(response).to have_http_status(:ok)
-      end
+    it '/users/id/posts/id test' do
+      get '/users/:id/posts/:id'
+      expect(response).to have_http_status(:ok)
+      expect(response).to render_template(:show)
+      expect(response.body).to include 'This is a single post'
     end
   end
 end
