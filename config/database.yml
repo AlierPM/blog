@@ -27,7 +27,7 @@ development:
   database: blog_development
   host: localhost
   username: postgres
-  password: AbbA@2022
+  password: AbbA@2023
   port: 5432
 
 
@@ -66,7 +66,7 @@ test:
   database: blog_test
   host: localhost
   username: postgres
-  password: AbbA@2022
+  password: AbbA@2023
   port: 5432
 
 
