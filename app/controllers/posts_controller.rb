@@ -1,9 +1,6 @@
 class PostsController < ApplicationController
-  # GET /posts
-  # GET /posts.json
   def index
-    @user = User.find_by(id: params[:id])
-    @posts = @user.posts
+    @posts = Post.all
   end
 
   def show; end
