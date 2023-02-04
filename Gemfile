@@ -35,7 +35,7 @@ gem 'jbuilder'
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
-
+gem 'hirb'
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
@@ -43,8 +43,6 @@ gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 gem 'bootsnap', require: false
 
 gem 'faker'
-
-gem 'hirb'
 
 # Use Sass to process CSS
 # gem "sassc-rails"
@@ -55,8 +53,8 @@ gem 'hirb'
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem 'debug', platforms: %i[mri mingw x64_mingw]
-
   gem 'rails-controller-testing'
+  gem 'rspec', '~> 3.12.0'
   gem 'rspec-rails'
 end
 
